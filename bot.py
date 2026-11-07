@@ -7,7 +7,7 @@ Setup (Windows, Google Chrome installed):  pip install playwright
                                           accounts stay signed in, so later runs skip Google entirely
   python bot.py claim <link>              every account in info.txt in parallel: open link, fill surname if empty, tick uses, submit
 
-info.txt, one line per account:  acc1: surname=baghel; uses=Learning, Building agents, Coding
+info.txt, one line per account:  acc1: surname=yoursurname; uses=Learning, Building agents, Coding
 """
 import re, subprocess, sys, time
 from concurrent.futures import ThreadPoolExecutor
